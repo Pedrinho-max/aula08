@@ -10,21 +10,19 @@
       <?php> 
     
      echo  'Olá, Pedro' ;
+     echo '<br/>';
      ?>
 
-    //cria uma variável ano_nascimento
+
     $ano_nascimento = 2005;
-    //Cria uma variável chamada ano_nascimento e o ano em que estamos
     $ano_atual = 2024;
 
-    //Criamos uma variável para armazenar a idade da pessoa
-    //Realizamos um cálculo de subtração entre o anua atual e a de nascimento
     $idade = $ano_atual - $ano_nascimento;
 
-    //Exibimos a idade da pessoa
-    //No PHP o caracter ponto "." concatena(junta) strings.
     echo 'Você possui ', $idade . ' anos.'
     
-
+    
+    <br/>
+    <a href="formulario.php">Ir para o formulario</a>;
 </body>
 </html>
