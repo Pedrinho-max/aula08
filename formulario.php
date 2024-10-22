@@ -19,8 +19,8 @@
         $nome = '';
 
       if(isset($_POST['nome'])) {
-       echo '<p>Olá'. $nome.'</p>'
-
+       echo '<p>Olá ' . $nome.! Sejam bem-vindo(a)'</p>'
+      $nome = $POST{'nome'};
       }
     <?>
 </body>
